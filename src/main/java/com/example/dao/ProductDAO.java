@@ -17,9 +17,9 @@ public class ProductDAO implements IProductDAO {
 
     private Connection getConnection() throws SQLException {
 
-        String url = "jdbc:mysql://localhost:3306/project_2";
+        String url = "jdbc:mysql://db:3306/project_2";
         String user = "root";
-        String pass = "123456";
+        String pass = "root";
 
         return DriverManager.getConnection(url, user, pass);
     }
