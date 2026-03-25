@@ -7,6 +7,10 @@
 -- Server version: 9.1.0
 -- PHP Version: 8.3.14
 
+CREATE DATABASE IF NOT EXISTS `project_2`;
+USE `project_2`;
+
+
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
