@@ -1,0 +1,5 @@
+com\example\dao\ProductDAO.class
+com\example\view\ProductView.class
+com\example\model\Product.class
+com\example\controller\ProductController.class
+com\example\App.class
